@@ -1,0 +1,7 @@
+.env
+node_modules/
+.DS_Store
+*.log
+.next/
+build/
+dist/" > .gitignore
