@@ -1,0 +1,50 @@
+{
+  "app/about/page.tsx -> @/components/three/ParticleCanvas": {
+    "id": "app/about/page.tsx -> @/components/three/ParticleCanvas",
+    "files": [
+      "static/chunks/_app-pages-browser_components_three_ParticleCanvas_tsx.js"
+    ]
+  },
+  "app/blog/page.tsx -> @/components/three/ParticleCanvas": {
+    "id": "app/blog/page.tsx -> @/components/three/ParticleCanvas",
+    "files": [
+      "static/chunks/_app-pages-browser_components_three_ParticleCanvas_tsx.js"
+    ]
+  },
+  "app/contact/page.tsx -> @/components/three/ParticleCanvas": {
+    "id": "app/contact/page.tsx -> @/components/three/ParticleCanvas",
+    "files": [
+      "static/chunks/_app-pages-browser_components_three_ParticleCanvas_tsx.js"
+    ]
+  },
+  "app/not-found.tsx -> @/components/three/ParticleCanvas": {
+    "id": "app/not-found.tsx -> @/components/three/ParticleCanvas",
+    "files": [
+      "static/chunks/_app-pages-browser_components_three_ParticleCanvas_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/three/HeroCanvas": {
+    "id": "app/page.tsx -> @/components/three/HeroCanvas",
+    "files": [
+      "static/chunks/_app-pages-browser_components_three_HeroCanvas_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/three/ParticleCanvas": {
+    "id": "app/page.tsx -> @/components/three/ParticleCanvas",
+    "files": [
+      "static/chunks/_app-pages-browser_components_three_ParticleCanvas_tsx.js"
+    ]
+  },
+  "components/three/HeroCanvas.tsx -> three": {
+    "id": "components/three/HeroCanvas.tsx -> three",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_three_build_three_module_js.js"
+    ]
+  },
+  "components/three/ParticleCanvas.tsx -> three": {
+    "id": "components/three/ParticleCanvas.tsx -> three",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_three_build_three_module_js.js"
+    ]
+  }
+}
