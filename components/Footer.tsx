@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-const services = ['Ecommerce', 'Shopify', 'Social Media', 'WordPress', 'Figma Design', 'Full Stack Dev'];
+const services = ['Ecommerce', 'Shopify', 'Social Media', 'WordPress', 'Figma Design', 'Full Stack Dev', 'Rent a Car', 'Car Sale & Purchase', 'Mobile Phones'];
 const company = ['About Us', 'Portfolio', 'Testimonials', 'Pricing', 'Blog', 'Contact'];
 
 export default function Footer() {

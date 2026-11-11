@@ -1,4 +1,4 @@
-// File: /Users/apple/Downloads/trusted-market_Updated/app/page.tsx
+// File: /Users/abdulwahab/Documents/TrustedMarket/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -22,6 +22,9 @@ const services = [
   "Figma UI/UX Design",
   "Full Stack Development",
   "SEO Optimization",
+  "Rent a Car",
+  "Car Sale & Purchase",
+  "Mobile Phone Sale & Purchase",
   "Multiple Services",
   "Not sure yet",
 ];

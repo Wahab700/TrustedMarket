@@ -1,14 +1,14 @@
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { SectionTag, SectionTitle, Reveal, BtnPrimary, BtnOutline, Ticker } from '@/components/ui/Components';
-import { ShoppingBag, Zap, Megaphone, Globe, Palette, Code2 } from 'lucide-react';
+import { ShoppingBag, Zap, Megaphone, Globe, Palette, Code2, KeyRound, CarFront, Smartphone } from 'lucide-react';
 import NetworkFlow from '@/components/visuals/NetworkFlow';
 
 const ParticleCanvas = dynamic(() => import('@/components/three/ParticleCanvas'), { ssr: false });
 
 export const metadata = {
   title: 'Services — Trusted Market',
-  description: 'Ecommerce, Shopify, Social Media, WordPress, Figma Design, and Full Stack Development services.',
+  description: 'Ecommerce, Shopify, Social Media, WordPress, Figma Design, Full Stack Development, Car Rental, Car Sale & Purchase, and Mobile Phone Sale & Purchase services.',
 };
 
 const services = [
@@ -72,6 +72,36 @@ const services = [
     icon: Code2,
     result: 'Sub-1s load times, 99.9% uptime',
   },
+  {
+    num: '07',
+    title: 'Rent a Car',
+    tagline: 'Drive when you need it.',
+    desc: 'Flexible car rental for personal trips, business travel, and special occasions. Choose from a range of well-maintained vehicles with clear, upfront pricing and no hidden charges — available on daily, weekly, or monthly terms.',
+    features: ['Daily, weekly & monthly rentals', 'Economy, sedan & SUV options', 'With or without driver', 'Regularly serviced vehicles', 'Transparent pricing, no hidden fees', 'Convenient pickup & drop-off'],
+    tools: ['Economy', 'Sedan', 'SUV', 'Luxury', 'With Driver'],
+    icon: KeyRound,
+    result: 'Hassle-free rentals, on time',
+  },
+  {
+    num: '08',
+    title: 'Car Sale & Purchase',
+    tagline: 'Buy and sell with confidence.',
+    desc: 'Whether you are selling your current car or looking for your next one, we make the process simple and secure. We verify every vehicle, help you get a fair price, and handle the paperwork so the deal goes through smoothly.',
+    features: ['Verified vehicle listings', 'Fair market valuation', 'Vehicle inspection & history check', 'Ownership transfer & documentation', 'Trade-in options', 'Secure payment handling'],
+    tools: ['New Cars', 'Used Cars', 'Inspection', 'Valuation', 'Trade-In'],
+    icon: CarFront,
+    result: 'Fair deals, fully documented',
+  },
+  {
+    num: '09',
+    title: 'Mobile Phones Sale & Purchase',
+    tagline: 'Trusted phones. Fair prices.',
+    desc: 'Buy and sell new and used smartphones from a source you can trust. Every device is checked for condition, authenticity, and functionality, and we offer fair prices whether you are buying, selling, or trading in.',
+    features: ['New & used smartphones', 'Device condition & authenticity check', 'Instant price quotes for your phone', 'Trade-in & upgrade options', 'Accessories available', 'Secure, transparent transactions'],
+    tools: ['iPhone', 'Samsung', 'Google Pixel', 'Xiaomi', 'Trade-In'],
+    icon: Smartphone,
+    result: 'Checked devices, honest pricing',
+  },
 ];
 
 const pricing = [
@@ -134,7 +164,7 @@ export default function Services() {
               className="text-offwhite/50 text-xl max-w-xl leading-relaxed font-light opacity-0 animate-fade-up"
               style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}
             >
-              Six battle-tested disciplines designed to grow your brand, drive revenue, and establish digital authority.
+              Nine trusted services — from digital growth to car rentals, car sales, and mobile phone trading.
             </p>
             
             <div className="mt-12 opacity-0 animate-fade-up" style={{ animationDelay: '0.7s', animationFillMode: 'forwards' }}>

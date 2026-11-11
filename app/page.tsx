@@ -19,6 +19,9 @@ import {
   Globe,
   Palette,
   Code2,
+  KeyRound,
+  CarFront,
+  Smartphone,
 } from "lucide-react";
 
 const HeroCanvas = dynamic(() => import("@/components/three/HeroCanvas"), {
@@ -71,6 +74,27 @@ const services = [
     desc: "Scalable web apps from frontend to backend. React, Next.js, Node.js, APIs — built for real traffic.",
     tags: ["React", "Next.js", "Node.js"],
     icon: Code2,
+  },
+  {
+    num: "07",
+    title: "Rent a Car",
+    desc: "Reliable car rentals for daily, weekly, or monthly use. Well-maintained vehicles, transparent pricing, and flexible pickup.",
+    tags: ["Daily", "Weekly", "Monthly"],
+    icon: KeyRound,
+  },
+  {
+    num: "08",
+    title: "Car Sale & Purchase",
+    desc: "Buy or sell your car with confidence. Verified listings, fair market valuations, inspections, and hassle-free paperwork.",
+    tags: ["Buy", "Sell", "Valuation"],
+    icon: CarFront,
+  },
+  {
+    num: "09",
+    title: "Mobile Phones",
+    desc: "Buy and sell new and used mobile phones. Every device checked, fairly priced, and backed by a trusted deal.",
+    tags: ["New", "Used", "Trade-In"],
+    icon: Smartphone,
   },
 ];
 
@@ -248,7 +272,7 @@ export default function Home() {
             OUR CORE <span className="text-red-DEFAULT">SERVICES</span>
           </SectionTitle>
           <p className="text-offwhite/55 max-w-md leading-relaxed mb-12">
-            Six high-impact disciplines. One expert team. Delivered with
+            Nine high-impact services. One expert team. Delivered with
             precision, speed, and measurable ROI.
           </p>
         </Reveal>
